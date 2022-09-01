@@ -1,0 +1,21 @@
+.dimensao {
+    width: 300px;
+}
+
+/* O que for declarado com ponto da seguinte forma 
+é compreendido como uma classe no css */
+
+img {
+    border: solid 10px #00ff00;
+}
+/*  o que for delcarado como sendo um identificador de tag 
+vai ser aplicado em todas ocorrências  */
+
+#jose {
+    border: dotted 30px #FFF000;
+}
+
+/* quando voce declara com #, o tipo 'id'
+vai ser aplicado. Esse tipo apesar de funcionar
+não é tão recomendado, pois ids precisam ser únicos
+e não se repetem */
